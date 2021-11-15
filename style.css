@@ -1,0 +1,170 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    background-color: rgb(75, 99, 47);
+    margin: 0;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+
+.headerimg{
+    height: 150px;
+    width: auto;
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 3em;
+}
+
+.headerlinks{
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 10px;
+    margin-right: 20px;
+    padding-left:10px;
+    color: #333;
+}
+
+.headerlink{
+    border: 2px solid #333;
+    margin: 1em;
+    padding: 15px;
+    border-radius: 25em;
+    color: #333;
+    text-decoration: none;
+}
+
+.headerlink:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.one-a{
+    display: flex;
+    padding: 20px;
+    margin-left: auto;
+    height: 150px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+    flex-basis: 400px;
+    text-align: left;
+}
+
+
+.schoolimg{
+    height: 200px;
+    width: 450px;
+    min-width: 400px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 2em;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.two{
+   align-items: center;
+}
+
+.two h1{
+    text-align: center;
+    color: darkgreen;
+}
+
+.two-imgs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.two-imgs img{
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    justify-content: center;
+    border: 3px solid rgb(75, 99, 47);
+    border-radius: .5em;
+    margin: 1em;
+    object-fit: cover;
+}
+
+.three{
+    background-color: slategray;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.three h2{
+    text-align: right;
+    padding-right: 10%;
+}
+
+.four{
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.5em;
+}
+
+.four-text{
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.footer{
+    background-color: darkgreen;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 60px;
+}
+
+.btn{
+    background-color: goldenrod;
+    border-radius: .5em;
+    padding: 5px 10px;
+    margin: 20px;
+    border: none;
+}
+
+.btn-header{
+    margin: 0;
+}
+
+.btn:hover{
+    background-color: gold;
+    cursor: pointer;
+}
